@@ -26,3 +26,16 @@
 *.exe
 *.out
 *.app
+
+# NuGet
+*.sdf
+*.opendb
+
+
+#Project Specific
+Perception/x64
+Perception/.vs
+Perception.Test/x64
+Perception.Test/.vs
+Perception/ipch
+Perception/packages
