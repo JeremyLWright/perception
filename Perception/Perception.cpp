@@ -2,6 +2,8 @@
 //
 
 #include "stdafx.h"
+#include <iostream>
+
 #include <SFML/Window.hpp>
 
 int main()
@@ -12,8 +14,17 @@ int main()
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
-			if (event.type == sf::Event::Closed)
+			switch (event.type)
+			{
+			case sf::Event::Closed:
 				window.close();
+				break;
+			case sf::Event::LostFocus:
+				std::cout << "Pausing game.\n";
+				break;
+			case sf::Event::GainedFocus:
+				std::cout << "Resuming game.\n";
+			}
 		}
 	}
 
