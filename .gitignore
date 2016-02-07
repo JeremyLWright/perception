@@ -33,9 +33,7 @@
 
 
 #Project Specific
-Perception/x64
-Perception/.vs
-Perception.Test/x64
-Perception.Test/.vs
-Perception/ipch
-Perception/packages
+.vs
+ipch
+packages
+x64
