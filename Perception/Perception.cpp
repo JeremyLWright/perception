@@ -24,6 +24,12 @@ int main()
 				break;
 			case sf::Event::GainedFocus:
 				std::cout << "Resuming game.\n";
+				break;
+			case sf::Event::TextEntered:
+				if (event.text.unicode < 128)
+					std::cout << "Typed: " << static_cast<char>(event.text.unicode) << '\n';
+				break;
+
 			}
 		}
 	}
