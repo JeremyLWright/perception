@@ -1,3 +1,6 @@
 [submodule "3rdParty/Box2D"]
 	path = 3rdParty/Box2D
 	url = https://github.com/erincatto/Box2D.git
+[submodule "jlw_sfml_tmxloader"]
+	path = 3rdParty/sfml-tmxloader
+	url = https://github.com/JeremyLWright/sfml-tmxloader.git
