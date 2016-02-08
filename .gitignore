@@ -30,6 +30,7 @@
 # NuGet
 *.sdf
 *.opendb
+*.vcxproj.user
 
 
 #Project Specific

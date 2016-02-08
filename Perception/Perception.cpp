@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <cassert>
 #include <boost/version.hpp>
-static_assert(BOOST_VERSION <= 106000, "Boost must be 1.60 or greater.");
+static_assert(BOOST_VERSION >= 106000, "Boost must be 1.60 or greater.");
 
 #include <SFML/Window.hpp>
 #include <SFML/Graphics/Texture.hpp>
