@@ -1,0 +1,80 @@
+==================
+=BMR's Wall Tiles=
+==================
+
+Version:      v3.0.5
+Release Date: January 17, 2014
+
+
+INTRODUCTION
+============
+
+BMR's Wall Tiles, or BMRWT, is a collection of different floor tiles
+that can fit various settings and tilemaps.  BMRWT is a subsection of
+BMRT (BMR Art).  While BMRT provides ready-assembled tilesets BMRWT
+is instead a collection of different tiles that can be mixed and
+matched however the game designer wants.
+
+Starting with version 3, BMR's Wall Tiles is now in the Public Domain
+rather than Creative Commons, meaning you don't have to attribute or
+ask for permission or anything.  You can do anything you want with it.
+If you do use it, it would be nice to drop me a line showing me where
+you've used the graphics.  It's not necessary, but it would be nice.
+
+Take note that BMRT tiles were originally created for use with the
+OHRRPGCE.  This does not mean they cannot be used outside of the
+engine though, and you should feel free to do whatever you want with
+them.
+
+
+STRUCTURE
+=========
+
+This set contains various walls segments that can be arranged and built
+into just about any type of room.  Included are diagonal walls, columns,
+and shadows for corners.
+
+The first set, "bmrwalls000.png" is a base showing the lighting/shadows
+that are applied to the different sets.  This will help give an idea as
+to how the tiles work together.
+
+
+IMPORTANT NOTES
+===============
+
+BMRWT does not use a specific palette.  This was done to better allow
+individuals to tweak the colors to match whatever palette they are
+using.  Each set is limited to only 16 colors, though I suppose they
+could further be reduced to 8 while still retaining quality.
+Reductions or expansions in color, however, I leave to the individual
+game maker.  I might get around to it in the future, but don't keep
+your hopes up.
+
+Lastly, I don't make any assurances that these are optimized to use 
+the fewest number of colors possible.  You're always free to modify 
+these to whatever you want them to look like.
+
+
+LICENCE INFORMATION
+===================
+
+BMRT by Lakan David D. Inocencio is in the public domain.
+
+To view a copy of this license, visit 
+http://creativecommons.org/publicdomain/mark/1.0/
+
+In a nutshell, you're free to use this tileset in pretty much 
+whatever way you want, commercially or non-commercially.  If you 
+want to modify an re-release this, you're free to do so.  If you
+want to host it elsewhere, go for it.  Don't, however, go
+claiming you made the entire set, that wouldn't be nice.  It's
+in the public domain, so if you want to package it as part of an
+art pack, include it in a commercial game, make money off it, then
+go for it.
+
+
+LINKS
+=====
+
+The OHRRPGCE:
+  http://rpg.hamsterrepublic.com/ohrrpgce/Main_Page
