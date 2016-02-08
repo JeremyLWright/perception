@@ -13,15 +13,15 @@ static_assert(BOOST_VERSION >= 106000, "Boost must be 1.60 or greater.");
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/RenderWindow.hpp>
 
+#include <gsl.h>
+
+
 int main()
 {
 
 	sf::Texture texture;
-	if (!texture.loadFromFile("assets/orange_bunny.png", sf::IntRect(10, 10, 32, 72)))
-	{
+	Expects(texture.loadFromFile("assets/orange_bunny.png", sf::IntRect(10, 10, 32, 72)));
 
-		throw std::runtime_error("Unable to load sprites.");
-	}
 	sf::Sprite sprite;
 	sprite.setTexture(texture);
 
@@ -29,8 +29,6 @@ int main()
 	while (window.isOpen())
 	{
 		sf::Event event;
-
-
 
 		while (window.pollEvent(event))
 		{
