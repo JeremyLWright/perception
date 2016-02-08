@@ -2,10 +2,9 @@
 //
 
 #include "stdafx.h"
-#define CATCH_CONFIG_MAIN
 #include <catch/catch.hpp>
 
-TEST_CASE("Simple Test")
+TEST_CASE("Hello World")
 {
 	REQUIRE(1 == 1);
 }
