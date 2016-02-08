@@ -1,6 +1,3 @@
-[submodule "3rdParty/sfml-tmxloader"]
-	path = 3rdParty/sfml-tmxloader
-	url = https://github.com/fallahn/sfml-tmxloader
 [submodule "3rdParty/Box2D"]
 	path = 3rdParty/Box2D
 	url = https://github.com/erincatto/Box2D.git
