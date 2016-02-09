@@ -6,7 +6,7 @@
 		<UnitTestTimeout>600000</UnitTestTimeout>
 	</PropertyGroup>
 	<ItemGroup>
-		<Tests Include="$(Platform)\**\*.Test.exe"/>
+		<Tests Include="$(Platform)\**\*.Test.exe" Exclude="**\Box2D.Test.exe"/>
 	</ItemGroup>
 
 	<Target Name="Test">

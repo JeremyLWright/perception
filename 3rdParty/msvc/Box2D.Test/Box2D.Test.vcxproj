@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Framework\DebugDraw.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Framework\imgui.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Framework\RenderGL3.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Framework\stb_truetype.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Framework\Test.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\AddPair.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\ApplyForce.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\BasicSliderCrank.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\BodyTypes.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Breakable.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Bridge.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\BulletTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Cantilever.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Car.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Chain.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\CharacterCollision.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\CollisionFiltering.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\CollisionProcessing.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\CompoundShapes.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Confined.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\ContinuousTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\ConvexHull.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\ConveyorBelt.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\DistanceTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Dominos.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\DumpShell.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\DynamicTreeTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\EdgeShapes.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\EdgeTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Gears.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\HeavyOnLight.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\HeavyOnLightTwo.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Mobile.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\MobileBalanced.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\MotorJoint.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\OneSidedPlatform.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Pinball.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\PolyCollision.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\PolyShapes.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Prismatic.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Pulleys.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Pyramid.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\RayCast.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Revolute.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Rope.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\RopeJoint.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\SensorTest.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\ShapeEditing.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\SliderCrank.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\SphereStack.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\TheoJansen.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Tiles.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\TimeOfImpact.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Tumbler.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\VaryingFriction.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\VaryingRestitution.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\VerticalStack.h" />
+    <ClInclude Include="..\..\Box2D\Box2D\Testbed\Tests\Web.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Framework\DebugDraw.cpp" />
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Framework\imgui.cpp" />
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Framework\Main.cpp" />
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Framework\RenderGL3.cpp" />
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Framework\Test.cpp" />
+    <ClCompile Include="..\..\Box2D\Box2D\Testbed\Tests\TestEntries.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AA5E36F-96E1-4F35-82D3-CF6BC3CFBDA0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Box2DTest</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)3rdParty\Box2D\Box2D</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Box2D.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /I $(SolutionDir)3rdParty\Box2D\Box2D\Build\Data $(OutDir)..\Data</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)3rdParty\Box2D\Box2D</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Box2D.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /Y /I $(SolutionDir)3rdParty\Box2D\Box2D\Build\Data $(OutDir)..\Data</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\..\..\packages\glfw.redist.3.1.2\build\native\glfw.redist.targets" Condition="Exists('..\..\..\packages\glfw.redist.3.1.2\build\native\glfw.redist.targets')" />
+    <Import Project="..\..\..\packages\glfw.3.1.2\build\native\glfw.targets" Condition="Exists('..\..\..\packages\glfw.3.1.2\build\native\glfw.targets')" />
+    <Import Project="..\..\..\packages\glew.redist.1.9.0.1\build\native\glew.redist.targets" Condition="Exists('..\..\..\packages\glew.redist.1.9.0.1\build\native\glew.redist.targets')" />
+    <Import Project="..\..\..\packages\glew.v140.1.12.0\build\native\glew.v140.targets" Condition="Exists('..\..\..\packages\glew.v140.1.12.0\build\native\glew.v140.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\glfw.redist.3.1.2\build\native\glfw.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\glfw.redist.3.1.2\build\native\glfw.redist.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\glfw.3.1.2\build\native\glfw.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\glfw.3.1.2\build\native\glfw.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\glew.redist.1.9.0.1\build\native\glew.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\glew.redist.1.9.0.1\build\native\glew.redist.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\glew.v140.1.12.0\build\native\glew.v140.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\glew.v140.1.12.0\build\native\glew.v140.targets'))" />
+  </Target>
+</Project>
