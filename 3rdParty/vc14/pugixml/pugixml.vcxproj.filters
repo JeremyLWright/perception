@@ -18,19 +18,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\3rdParty\sfml-tmxloader\src\pugixml\pugixml.cpp">
+    <ClCompile Include="..\..\sfml-tmxloader\src\pugixml\pugixml.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\3rdParty\sfml-tmxloader\include\pugixml\pugiconfig.hpp">
+    <ClInclude Include="..\..\sfml-tmxloader\include\pugixml\pugiconfig.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\3rdParty\sfml-tmxloader\include\pugixml\pugixml.hpp">
+    <ClInclude Include="..\..\sfml-tmxloader\include\pugixml\pugixml.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
