@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\DebugShape.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\Helpers.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\Log.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\MapLayer.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\MapLoader.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\MapObject.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\QuadTreeNode.h" />
+    <ClInclude Include="..\..\sfml-tmxloader\include\tmx\tmx2box2d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sfml-tmxloader\src\DebugShape.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\MapLayer.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\MapLoaderPrivate.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\MapLoaderPublic.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\MapObject.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\QuadTreeNode.cpp" />
+    <ClCompile Include="..\..\sfml-tmxloader\src\tmx2box2d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
