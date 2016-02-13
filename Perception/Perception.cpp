@@ -62,6 +62,7 @@ int main()
 
 	AnimatedSprite animatedSprite(sf::seconds(0.2), true, false);
 	animatedSprite.setPosition(0, 0);
+	animatedSprite.setScale(2, 2);
 
 	sf::Sprite brick_sprite;
 	brick_sprite.setTexture(brick_texture);
