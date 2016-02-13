@@ -21,7 +21,7 @@ int main()
 
 	sf::Texture character_texture;
 	sf::Texture brick_texture;
-	Expects(character_texture.loadFromFile("assets/orange_bunny.png", sf::IntRect(10, 10, 32, 72)));
+	Expects(character_texture.loadFromFile("assets/emo_physicist.png", sf::IntRect(10, 10, 32, 72)));
 	Expects(brick_texture.loadFromFile("assets/42_Bricks_Dk.png", sf::IntRect(0, 0, 64, 64)));
 	brick_texture.setRepeated(true);
 	
@@ -34,6 +34,7 @@ int main()
 	brick_sprite.setPosition(0, 64*3);
 
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Perception :: Now you see me.");
+	window.setFramerateLimit(60);
 	while (window.isOpen())
 	{
 		sf::Event event;
