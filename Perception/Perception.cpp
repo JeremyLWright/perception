@@ -19,11 +19,19 @@ static_assert(BOOST_VERSION >= 106000, "Boost must be 1.60 or greater.");
 int main()
 {
 
-	sf::Texture texture;
-	Expects(texture.loadFromFile("assets/orange_bunny.png", sf::IntRect(10, 10, 32, 72)));
+	sf::Texture character_texture;
+	sf::Texture brick_texture;
+	Expects(character_texture.loadFromFile("assets/orange_bunny.png", sf::IntRect(10, 10, 32, 72)));
+	Expects(brick_texture.loadFromFile("assets/42_Bricks_Dk.png", sf::IntRect(0, 0, 64, 64)));
+	brick_texture.setRepeated(true);
+	
 
 	sf::Sprite sprite;
-	sprite.setTexture(texture);
+	sprite.setTexture(character_texture);
+	sf::Sprite brick_sprite;
+	brick_sprite.setTexture(brick_texture);
+	brick_sprite.setTextureRect(sf::IntRect{0, 64, 64 * 5, 64 * 1});
+	brick_sprite.setPosition(0, 64*3);
 
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Perception :: Now you see me.");
 	while (window.isOpen())
@@ -80,6 +88,7 @@ int main()
 
 			}
 			window.draw(sprite);
+			window.draw(brick_sprite);
 			window.display();
 		}
 	}
